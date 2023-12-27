@@ -141,10 +141,6 @@ section{
   background-color: rgb(9, 118, 169);
 }
 
-#escolaridade {
-  background-color: rgb(0, 0, 0);
-}
-
 #cursos {
   background-color: #333;
 }
@@ -188,26 +184,6 @@ section{
   background-color: rgb(9, 118, 169);
   display: flex;
   margin: 9%;
-  text-align: center;
-  justify-content: center;
-  font-size: large;  
-}
-
-.sec3 {
-  background-color: rgb(0, 0, 0);
-}
-
-.sec3 h1 {
-  padding: 40px;
-  font-size: 37px;
-  text-align: center;
-  font-family: 'Poppins', sans-serif;
-}
-
-.sec3 p {
-  font-size:small;
-  display: flex;
-  margin: 5%;
   text-align: center;
   justify-content: center;
   font-size: large;  
