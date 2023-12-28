@@ -134,32 +134,32 @@ section{
 }
 
 #apresentacao {
-  background-color: rgb(204, 213, 43);
+  background-color: #005187;
 }
 
 #experiencia {
-  background-color: rgb(9, 118, 169);
+  background-color: #336ca5;
 }
 
 #cursos {
-  background-color: #333;
+  background-color: #fcffff;
 }
 
 #contato {
-  background-color: red;
+  background-color: #bbd5f9;
 }
 
 .sec1 h1 {
   padding: 40px;
   font-size: 37px;
   text-align: center;
-  background-color: rgb(204, 213, 43);
+  background-color: #005187;
   font-family: 'Poppins', sans-serif;
 }
 
 .sec1 p {
   font-size:small;
-  background-color: rgb(204, 213, 43);
+  background-color: #005187; 
   display: flex;
   margin: 11%;
   text-align: center;
@@ -168,20 +168,20 @@ section{
 }
 
 .sec2{
-  background-color: rgb(9, 118, 169);
+  background-color: #336ca5;
 }
 
 .sec2 h1 {
   padding: 40px;
   font-size: 37px;
   text-align: center;
-  background-color: rgb(9, 118, 169);
+  background-color: #336ca5;
   font-family: 'Poppins', sans-serif;
 }
 
 .sec2 p {
   font-size:small;
-  background-color: rgb(9, 118, 169);
+  background-color: #336ca5;
   display: flex;
   margin: 9%;
   text-align: center;
@@ -190,20 +190,20 @@ section{
 }
 
 .sec4 {
-  background-color: #333;
+  background-color: #fcffff;
 }
 
 .sec4 h1 {
   padding: 50px;
   font-size: 37px;
   text-align: center;
-  background-color: #00000053;
+  background-color: #fcffff;
   font-family: 'Poppins', sans-serif;
 }
 
 .sec4 img {
   font-size:small;
-  background-color: #333;
+  background-color: #fcffff;
   display: flex;
   margin: 5%;
   text-align: center;
@@ -212,7 +212,7 @@ section{
 }
 
 .sec5 {
-  background-color: red;
+  background-color: #bbd5f9;
   
 }
 
@@ -225,7 +225,7 @@ section{
 
 .sec5 p {
   font-size:small;
-  background-color: red;
+  background-color: #bbd5f9;
   display: flex;
   margin: 8%;
   text-align: center;
