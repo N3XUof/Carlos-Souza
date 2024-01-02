@@ -248,3 +248,36 @@ section{
 .cadusoco img {
   height: 90px;
 }
+
+.secproj {
+  background-color: #c3f8ff;
+}
+
+.secproj h1 {
+  padding: 40px;
+  font-size: 37px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.secproj p {
+  font-size:small;
+  background-color: #bbd5f9;
+  display: flex;
+  margin: 8%;
+  text-align: center;
+  justify-content: center;
+  font-size: large;  
+}
+
+.secproj li a {
+  display: flex;
+  gap: 2em;
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
+}
+
+.secproj img{
+  height: 80px;
+}
