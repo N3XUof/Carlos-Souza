@@ -87,5 +87,29 @@
             <ul id="github-posts"></ul>
         </section>
     </main>
+
+    <script>
+        const username = 'seu_nome_de_usuario_no_github';
+        const token = 'seu_token_de_acesso_pessoal';
+
+        fetch(`https://api.github.com/users/${username}/repos`, {
+            headers: {
+                'Authorization': `token ${token}`
+            }
+        })
+        .then(response => response.json())
+        .then(repos => {
+            const githubPostsElement = document.getElementById('github-posts');
+
+            repos.forEach(repo => {
+                const listItem = document.createElement('li');
+                listItem.innerHTML = `<strong>${repo.name}</strong>: ${repo.description}`;
+                githubPostsElement.appendChild(listItem);
+            });
+        })
+        .catch(error => {
+            console.error('Erro ao recuperar postagens do GitHub:', error);
+        });
+    </script>
 </body>
 </html>
