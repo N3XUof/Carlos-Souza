@@ -153,13 +153,11 @@ section{
   padding: 40px;
   font-size: 37px;
   text-align: center;
-  background-color: #005187;
   font-family: 'Poppins', sans-serif;
 }
 
 .sec1 p {
   font-size:small;
-  background-color: #005187; 
   display: flex;
   margin: 11%;
   text-align: center;
@@ -175,13 +173,11 @@ section{
   padding: 40px;
   font-size: 37px;
   text-align: center;
-  background-color: #336ca5;
   font-family: 'Poppins', sans-serif;
 }
 
 .sec2 p {
   font-size:small;
-  background-color: #336ca5;
   display: flex;
   margin: 9%;
   text-align: center;
@@ -190,20 +186,18 @@ section{
 }
 
 .sec4 {
-  background-color: #fcffff;
+  background-color: #bbd5f9;
 }
 
 .sec4 h1 {
   padding: 50px;
   font-size: 37px;
   text-align: center;
-  background-color: #fcffff;
   font-family: 'Poppins', sans-serif;
 }
 
 .sec4 img {
   font-size:small;
-  background-color: #fcffff;
   display: flex;
   margin: 5%;
   text-align: center;
@@ -212,7 +206,7 @@ section{
 }
 
 .sec5 {
-  background-color: #bbd5f9;
+  background-color: #5589c4;
   
 }
 
@@ -225,7 +219,6 @@ section{
 
 .sec5 p {
   font-size:small;
-  background-color: #bbd5f9;
   display: flex;
   margin: 8%;
   text-align: center;
@@ -247,6 +240,7 @@ section{
 
 .cadusoco img {
   height: 90px;
+  background-color: #5589c4;
 }
 
 .secproj {
@@ -262,7 +256,6 @@ section{
 
 .secproj p {
   font-size:small;
-  background-color: #bbd5f9;
   display: flex;
   margin: 8%;
   text-align: center;
@@ -280,4 +273,5 @@ section{
 
 .secproj img{
   height: 80px;
+  background-color: #5589c4;
 }
